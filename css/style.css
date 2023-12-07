@@ -4,7 +4,6 @@ body {
 }
 
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -79,7 +78,8 @@ body {
 }
 
 .container {
-  max-width: 1290px;;
+  max-width: 1290px;
+  ;
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
@@ -208,7 +208,7 @@ section {
 }
 
 .money_imge {
- display: flex;
+  display: flex;
   width: 585px;
   height: 546px;
 }
@@ -321,4 +321,129 @@ section {
 .shop_ic {
   width: 91px;
   height: 58px;
+}
+
+.free_ic {
+  width: 193px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.sec_tit_sun {
+  width: 22px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 0px;
+  margin-left: 34%;
+}
+
+.sec_tit_sub {
+  width: 436px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+
+.zen_txte_wer {
+  width: 475px;
+  margin-bottom: 33px;
+}
+
+.card_shop {
+  background: url(../img/shooping.jpg);
+  width: 585px;
+  height: 589px;
+  flex-shrink: 0;
+}
+
+/* fees  */
+
+.card_fees {
+  background: url(../img/fees.jpg);
+  width: 585px;
+  height: 422px;
+  flex-shrink: 0;
+}
+
+/* quick */
+
+.quick_img {
+  display: inline-flex;
+  padding: 20.406px 121px 6.594px 0px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quick_ic {
+  width: 169px;
+  height: 50px;
+}
+
+/* footer */
+footer {
+  background: #fff;
+}
+
+.footer_copy {
+  color: #AAA;
+  width: 836px;
+  font-size: 12px;
+  line-height: 15.6px;
+  padding: 74px;
+  margin-left: 3.5%;
+}
+
+.footer_big {
+  padding-bottom: 100px;
+  color: #222;
+}
+
+
+.footer_nav {
+  color: #222;
+  padding: 47px;
+}
+
+
+
+.footer_tit {
+}
+
+
+
+.foot {
+  color: #FFF;
+  font-family: "Playfair Display";
+  font-size: 32.67px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  left: 22.63%;
+  right: -10.22%;
+  top: 10.34%;
+  bottom: 12.07%;
+  line-height: 29px;
+}
+
+
+
+.footer_txt {
+  color: #ADB29E;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 293px;
+}
+
+.footer_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_img {
+  width: 334px;
+  height: 23px;
+  margin-left: 5%;
 }
