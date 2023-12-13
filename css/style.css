@@ -102,32 +102,7 @@ section {
   color: #BE963F;
 }
 
-/* btn   */
 
-.btn {
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  width: 131px;
-  height: 48px;
-  border-radius: 148px;
-  border: 1px solid #000;
-  display: inline-flex;
-}
-
-.btn:hover {
-  background: #2C2F24;
-  color: #fff;
-}
-
-.link {
-  transition: 0.5s;
-}
-
-.link:hover {
-  box-shadow: 0px 6px 5px 2px #836A36;
-}
 
 .flex {
   display: flex;
@@ -135,14 +110,6 @@ section {
   justify-content: space-between;
 }
 
-/* header */
-
-.head {
-  padding: 15px 100px;
-  margin-top: 20px;
-}
-
-/* menu  */
 
 .menu a {
   padding: 4px 16px;
@@ -161,79 +128,7 @@ section {
 
 }
 
-/* money */
 
-.fast_icon {
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.fast_icon i {
-  background: url(../img/icons/personal-3.png) center no-repeat;
-  width: 29px;
-  height: 29px;
-}
-
-.fast_icon span {
-  padding-left: 20px;
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  padding: 20px;
-}
-
-.sec_tit {
-  font-size: 42px;
-  font-weight: 400;
-  line-height: 50.4px;
-  width: 450px;
-  margin-bottom: 20px;
-}
-
-.main_txt {
-  font-size: 18px;
-  line-height: 25.92px;
-  width: 400px;
-  margin-bottom: 12px;
-}
-
-.money_img {
-  display: inline-flex;
-  padding: 0.5px 310px 6.5px 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.money_imge {
-  display: flex;
-  width: 585px;
-  height: 546px;
-}
-
-/* boost */
-.cardser {
-  background: url(../img/boost.jpg);
-  width: 585px;
-  height: 657px;
-}
-
-.main_txte {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25.92px;
-  width: 439px;
-  margin-bottom: 12px;
-}
-
-.main_txter {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25.92px;
-  width: 445px;
-}
 
 /* zen */
 .zen_txte {
@@ -262,8 +157,6 @@ section {
 
 .card_s {
   background: url(../img/zen.jpg);
-  width: 585px;
-  height: 587px;
 }
 
 /* free */
@@ -311,24 +204,6 @@ section {
   display: inline-flex;
 }
 
-.shop_img {
-  gap: 20px;
-  display: inline-flex;
-  padding: 0px 0px 0px 0px;
-  align-items: flex-start;
-}
-
-.shop_ic {
-  width: 91px;
-  height: 58px;
-}
-
-.free_ic {
-  width: 193px;
-  height: 70px;
-  flex-shrink: 0;
-}
-
 .sec_tit_sun {
   width: 22px;
   font-size: 27px;
@@ -350,12 +225,6 @@ section {
   margin-bottom: 33px;
 }
 
-.card_shop {
-  background: url(../img/shooping.jpg);
-  width: 585px;
-  height: 589px;
-  flex-shrink: 0;
-}
 
 /* fees  */
 
@@ -407,8 +276,7 @@ footer {
 
 
 
-.footer_tit {
-}
+.footer_tit {}
 
 
 
@@ -447,3 +315,104 @@ footer {
   height: 23px;
   margin-left: 5%;
 }
+
+/* boost */
+
+.boost_right {
+  width: calc(50% - 45px);
+  padding: 150px;
+}
+
+.boost_txt {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  width: 439px;
+  margin-bottom: 12px;
+}
+
+.boost_txt-2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  width: 445px;
+}
+
+.sec_sub-tit {
+  width: 379px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* money */
+
+.fast_icon {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fast_icon i {
+  background: url(../img/icons/personal-3.png);
+  width: 29px;
+  height: 29px;
+}
+
+.fast_icon span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.money_img {
+  display: inline-flex;
+  padding: 0.5px 310px 6.5px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.moneyt_right {
+  width: calc(50% - 45px);
+  padding: 150px;
+}
+
+.moneyt_txt {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  width: 439px;
+  margin-bottom: 12px;
+}
+
+.sec_tit {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50.4px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.money_img {
+  margin-left: 12%;
+}
+
+.zen_txt {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  width: 366px;
+}
+
+.shop_img {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-left: 12%;
+}
+
+.shop_ic{
+  width: 100px;
+  height: 58px;
+}
+
