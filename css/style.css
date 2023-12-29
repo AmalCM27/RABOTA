@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  
 }
 
 * {
@@ -376,7 +377,6 @@ footer {
   color: #222;
   font-size: 16px;
   font-weight: 400;
-
 }
 
 
@@ -542,7 +542,6 @@ footer {
 
 span {
   display: block;
-  position: absolute;
   width: 100%;
 }
 
