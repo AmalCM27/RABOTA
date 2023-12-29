@@ -541,7 +541,8 @@ footer {
 }
 
 span {
-  display: block; 
+  display: block;
+  position: absolute;
   width: 100%;
 }
 
