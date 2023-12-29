@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  
+
 }
 
 * {
@@ -242,35 +242,35 @@ section {
   display: inline-flex;
 }
 
-.free_ic{
+.free_ic {
   width: 250px;
-	margin: 0 40px 40px;
-	background: #000000;
-	border-radius: 20px;
-	box-shadow: 0px 2.97872px 59.57446px 0px rgba(226, 23, 23, 0.08);
-	height: 110px;
-	display: flex;
-	align-items: center;
+  margin: 0 40px 40px;
+  background: #000000;
+  border-radius: 20px;
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(226, 23, 23, 0.08);
+  height: 110px;
+  display: flex;
+  align-items: center;
 }
 
-.free_ic:hover{
+.free_ic:hover {
   background: #00FFCB;
   transition: 1s;
   transform: rotate(-15deg);
 }
 
-.free_ice{
+.free_ice {
   width: 250px;
-	margin: 0 40px 40px;
-	background: #000000;
-	border-radius: 20px;
-	box-shadow: 0px 2.97872px 59.57446px 0px rgba(226, 23, 23, 0.08);
-	height: 110px;
-	display: flex;
-	align-items: center;
+  margin: 0 40px 40px;
+  background: #000000;
+  border-radius: 20px;
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(226, 23, 23, 0.08);
+  height: 110px;
+  display: flex;
+  align-items: center;
 }
 
-.free_ice:hover{
+.free_ice:hover {
   background: #00FFCB;
   transition: 1s;
   transform: rotate(15deg);
@@ -517,9 +517,24 @@ footer {
 
 }
 
-.shop_ic {
+.shop_ice {
   width: 90px;
   height: 58px;
+  transition: 1s;
+}
+
+.shop_ice:hover {
+  transform: scale(1.2);
+}
+
+.shop_ic {
+  width: 115px;
+  height: 58px;
+  transition: 1s;
+}
+
+.shop_ic:hover {
+  transform: scale(1.2);
 }
 
 /* btneet */
@@ -581,7 +596,7 @@ footer {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.ji{
+.ji {
   flex-direction: column;
   display: inline-flex;
   gap: 20px;
@@ -589,11 +604,15 @@ footer {
 
 /* блюр */
 .blur-image {
-  filter: blur(5px); /* Размытие изображения */
-  transition: 1s; /* Время перехода */
+  filter: blur(5px);
+  /* Размытие изображения */
+  transition: 1s;
+  /* Время перехода */
 }
+
 .blur-image:hover {
-  filter: blur(0); /* Отменяем размытие */
+  filter: blur(0);
+  /* Отменяем размытие */
 }
 
 /*  */
