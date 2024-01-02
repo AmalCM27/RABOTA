@@ -73,9 +73,11 @@ textarea {
 
 body {
   color: var(--neutral-06, #414536);
-  font-family: " DM Sans", arial;
+  font-family: 'PT Root UI', sans-serif;     
   font-size: 18px;
   line-height: 28px;
+  min-height: 100vh;
+  
 }
 
 .container {
@@ -115,15 +117,74 @@ section {
 @import url('https://fonts.cdnfonts.com/css/pt-root-ui');
 
 
-.menu a {
-  padding: 4px 30px;
-  color: #2C2F24;
-  font-size: 18px;
-  border-radius: 34px;
-  transition: 0.5s;
 
 
+nav{
+  position: relative;
+  display: flex;
+  gap: 30px;
+  padding: 15px 20px;
 }
+
+nav a{
+  position: relative;
+  color: #999;
+  text-decoration: none;
+  font-size: 1.5em;
+  z-index: 2;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  transition: 0.5s;
+}
+nav a.active{
+  color: #222327;
+}
+a{
+  text-decoration: none;
+}
+#indicator{
+  position: absolute;
+  height: 75px;
+  width: 150px;
+  background: #29fd53;
+  z-index: 1;
+  transition: 0.5s;
+  display: none;
+}
+#indicator::before{
+  content: '';
+  position: absolute;
+  left: -30px;
+  width: 50px;
+  height: 15px;
+  background: #29fd53;
+  border-radius: 15px;
+  transition: 0.5s;
+  box-shadow: 15px 30px #29fd53, 5px 60px #29fd53, -15px 15px #374da6, -10px 45px #a8d15b;
+}
+#indicator::after{
+  content: '';
+  position: absolute;
+  right: -30px;
+  width: 50px;
+  height: 15px;
+  background: #29fd53;
+  border-radius: 15px;
+  transition: 0.5s;
+  box-shadow: 5px 30px #29fd53, -15px 60px #29fd53, 15px 15px #bf6f6f, 10px 45px #862d6d;
+}
+#indicator.change::before{
+  left: -10px;
+  box-shadow: -15px 30px #29fd53, -5px 60px #29fd53, -10px 15px #c9c2cb, -20px 45px #002bd7;
+}
+#indicator.change::after{
+  right: -20px;
+  box-shadow: 10px 30px #29fd53, 20px 60px #29fd53, 15px 15px #1f8291, 25px 45px #858f39;
+}
+
 
 .menu li:last-child a {
   margin: 0;
