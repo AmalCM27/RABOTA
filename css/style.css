@@ -262,7 +262,7 @@ a{
   box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
   cursor: pointer;
   position: relative;
-  top: 20px;
+  top: 32px;
 }
 
 .btn::before {
