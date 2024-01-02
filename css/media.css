@@ -1,5 +1,25 @@
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 932px) {
 	.container{
-		max-width: 1182px;
+		max-width: 430px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
 	}
 }
