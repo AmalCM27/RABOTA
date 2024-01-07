@@ -530,7 +530,7 @@ footer {
 }
 
 .ghj {
-  transition: 1s; /* Время эффекта */
+  transition: 2s; /* Время эффекта */
  }
  .ghj:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
