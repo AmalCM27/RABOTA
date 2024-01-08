@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
 	.container {
 		max-width: 960px;
 	}
@@ -32,4 +32,4 @@
 		.card-carousel{
 			margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
 		}
-	} 
+	} 	
