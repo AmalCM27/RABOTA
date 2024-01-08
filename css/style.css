@@ -122,6 +122,7 @@ section {
 nav{
   position: relative;
   display: flex;
+  /* gap: 30px; */
   padding: 15px 20px;
 }
 
@@ -182,6 +183,98 @@ a{
 #indicator.change::after{
   right: -20px;
   box-shadow: 10px 30px #29fd53, 20px 60px #29fd53, 15px 15px #1f8291, 25px 45px #858f39;
+}
+
+.card-carousel{
+	--card-width: 80%;
+	--card-max-width: 280px;
+	--card-height: 350px;
+	--carousel-min-width: 600px;
+	z-index: 1;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: var(--card-height);
+	min-width: var(--carousel-min-width);
+	transition: filter .3s ease;
+}
+.card-carousel.smooth-return{
+	transition: all .2s ease;
+}
+.card-carousel .card {
+	background: whitesmoke;
+	width: var(--card-width);
+	max-width: var(--card-max-width);
+	text-align: center;
+	padding: 1em;
+	min-width: 250px;
+	height: var(--card-height);
+	position: absolute;
+	margin: 0 auto;
+	color: rgba(0, 0, 0, .5);
+	transition: inherit;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 1em;
+	filter: brightness(.9);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card.highlight{
+	filter: brightness(1)
+}
+.card:nth-of-type(1) .image-container{
+	background-image: url(.//personal-2.jpg
+  );
+}
+.card:nth-of-type(2) .image-container{
+	background-image: url(.//boost.jpg)
+}
+.card:nth-of-type(3) .image-container{
+	background-image: url(.//zen.jpg)
+}
+.card:nth-of-type(4) .image-container{
+	background-image: url(.//shooping.jpg)
+}
+.card:nth-of-type(5) .image-container{
+	background-image: url(.//fees.jpg)
+}
+
+.card:nth-of-type(6) .image-container{
+	background-image: url(.//one.jpg)
+}
+
+.card:nth-of-type(7) .image-container{
+	background-image: url(.//Quick.jpg)
+}
+
+
+
+.image-container{
+	width: 16em;
+	height: 16em;
+	position: relative;
+	background-size: cover;
+	margin-bottom: 2em;
+	border-radius: 30px 30px 30px ;
+	padding: 1em;
+	-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
+
+}
+.image-container::after{
+	content: "";
+	display: block;
+	width: 120%;
+	height: 120%;
+	border-radius: 100%;
+	position: absolute;
+	top: calc(-10% - 3px);
+	left: calc(-10% - 3px);
 }
 
 
