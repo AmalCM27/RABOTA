@@ -10,6 +10,17 @@ body {
   box-sizing: border-box;
 }
 
+.cotainer-1{
+  overflow: hidden;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgba(0, 0, 0, .1);
+  
+}
+
 .clearfix::after {
   clear: both;
   content: "";
@@ -87,9 +98,6 @@ body {
   min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
-	overflow: hidden;
-	display: flex;
-
 }
 
 .dn {
@@ -201,6 +209,7 @@ a{
 	height: var(--card-height);
 	min-width: var(--carousel-min-width);
 	transition: filter .3s ease;
+  margin-bottom: 60px;
 }
 .card-carousel.smooth-return{
 	transition: all .2s ease;
