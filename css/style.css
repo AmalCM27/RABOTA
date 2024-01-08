@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+	font-family: system-ui;
 
 }
 
@@ -86,6 +87,8 @@ body {
   min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
+	overflow: hidden;
+
 }
 
 .dn {
@@ -227,28 +230,28 @@ a{
 	filter: brightness(1)
 }
 .card:nth-of-type(1) .image-container{
-	background-image: url(.//personal-2.jpg
+	background-image: url(.//
   );
 }
 .card:nth-of-type(2) .image-container{
-	background-image: url(.//boost.jpg)
+	background-image: url(.//img/zen.jpg)
 }
 .card:nth-of-type(3) .image-container{
-	background-image: url(.//zen.jpg)
+	background-image: url(.//img/zen.jpg)
 }
 .card:nth-of-type(4) .image-container{
-	background-image: url(.//shooping.jpg)
+	background-image: url(.//img/shooping.jpg)
 }
 .card:nth-of-type(5) .image-container{
-	background-image: url(.//fees.jpg)
+	background-image: url(.//img/fees.jpg)
 }
 
 .card:nth-of-type(6) .image-container{
-	background-image: url(.//one.jpg)
+	background-image: url(.//img/one.jpg)
 }
 
 .card:nth-of-type(7) .image-container{
-	background-image: url(.//Quick.jpg)
+	background-image: url(.//img/Quick.jpg)
 }
 
 
@@ -258,7 +261,7 @@ a{
 	height: 16em;
 	position: relative;
 	background-size: cover;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 	border-radius: 30px 30px 30px ;
 	padding: 1em;
 	-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
