@@ -1,25 +1,13 @@
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 1200px) {
 	.container{
-		max-width: 430px;
+		max-width: 1054px;
 	}
 }
-@media screen and (max-width: 990px) {
-	.container{
-		max-width: 750px;
-	}
-}
-@media screen and (max-width: 780px) {
-	.container{
-		max-width: 510px;
-	}
-}
-@media screen and (max-width: 540px) {
-	.container{
-		max-width: 420px;
-	}
-}
-@media screen and (max-width: 450px) {
-	.container{
-		max-width: 100%;
-	}
-}
+
+@media screen and (max-width: 998px) {}
+
+@media screen and (max-width: 768px) {}
+
+
+@media screen and (max-width: 576px) {}
+
