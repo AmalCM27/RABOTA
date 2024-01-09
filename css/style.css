@@ -134,7 +134,7 @@ section {
 nav{
   position: relative;
   display: flex;
-  /* gap: 30px; */
+  gap: 30px;  
   padding: 15px 20px;
 }
 
