@@ -433,7 +433,7 @@ a {
   margin: 0 40px 40px;
   background: #000000;
   border-radius: 20px;
-  box-shadow: 0px 2.97872px 59.57446px 0px rgba(226, 23, 23, 0.08);
+
   height: 110px;
   display: flex;
   align-items: center;
@@ -441,8 +441,8 @@ a {
 
 .free_ic:hover {
   background: #00FFCB;
-  transition: 1s;
-  transform: rotate(-15deg);
+  transition: 2s;
+  transform: rotate(-360deg);
 }
 
 .free_ice {
@@ -458,8 +458,8 @@ a {
 
 .free_ice:hover {
   background: #00FFCB;
-  transition: 1s;
-  transform: rotate(15deg);
+  transition: 2s;
+  transform: rotate(360deg);
 }
 
 
