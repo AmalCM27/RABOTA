@@ -442,7 +442,7 @@ a {
 .free_ic:hover {
   background: #00FFCB;
   transition: 2s;
-  transform: rotate(-360deg);
+  transform: rotate(-15turn);
 }
 
 .free_ice {
