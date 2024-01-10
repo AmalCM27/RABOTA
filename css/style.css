@@ -582,6 +582,10 @@ footer {
   font-weight: 400;
 }
 
+.footer_list a:hover{
+  color: #000000;
+  transition: 0.5s;
+}
 
 
 .foot {
@@ -612,6 +616,9 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-size: 20px;
+  color: #AAA;
+
 }
 
 .footer_img {
