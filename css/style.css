@@ -861,7 +861,7 @@ footer {
   width: 260px;
   height: 40px;
   line-height: 40px;
-  background-repeat: 8px;
+  border-radius: 8px;
   font-family: arial;
   font-size: 15px;
   color: #111;
