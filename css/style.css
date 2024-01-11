@@ -434,14 +434,19 @@ a {
   width: 310px;
   height: 160px;
   display: inline-flex;
+  transition: 2s;
 }
+
+.frey_img:hover{
+  transform: scale(1.3);
+}
+
 
 .free_ic {
   width: 250px;
   margin: 0 40px 40px;
   background: #000000;
   border-radius: 20px;
-
   height: 110px;
   display: flex;
   align-items: center;
@@ -468,6 +473,7 @@ a {
   background: #00FFCB;
   transition: 2s;
   transform: rotate(360deg);
+  
 }
 
 
