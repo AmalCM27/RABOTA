@@ -450,12 +450,12 @@ a {
   height: 110px;
   display: flex;
   align-items: center;
+  transition: 1s;
 }
 
 .free_ic:hover {
-  background: #00FFCB;
   transition: 2s;
-  transform: rotate(-15turn);
+    box-shadow: inset 0 0 0 23px #53ea93;
 }
 
 .free_ice {
@@ -477,9 +477,9 @@ a {
 .free_ice:hover {
   background: #00FFCB;
   transition: 3s;
-  -webkit-transform:rotate(360deg) ;
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
- 
+
 }
 
 
@@ -933,3 +933,4 @@ footer {
 .in:hover {
   transform: scale(1.2);
 }
+
