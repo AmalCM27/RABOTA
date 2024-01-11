@@ -916,6 +916,13 @@ footer {
   margin-bottom: 50px;
   width: 176px;
   height: 59px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.pci:hover{
+  transform: scale(1.2);
+  
 }
 
 .in {
