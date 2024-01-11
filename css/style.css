@@ -122,7 +122,6 @@ header {
 
 .hover:hover {
   color: #BE963F;
-  
 }
 
 .head_logo {
@@ -890,4 +889,25 @@ footer {
   right: 0;
   bottom: 0;
   margin: auto
+}
+
+.nav-btn {
+  display: none;
+}
+.nav-btn {
+  display: block;
+  width: 60px;
+  border-radius: 15px;
+  background-color: white;
+  height: 50px;
+  font-size: 16px;
+  margin-left: 10px;
+ }
+
+ .pci {
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  width: 176px;
+  height: 59px;
 }
