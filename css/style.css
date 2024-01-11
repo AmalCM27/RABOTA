@@ -112,13 +112,13 @@ section {
   transition: 0.3s;
 }
 
-header {  
-  background-color: white;  
-  position: fixed;  
-  top: 0;  
-  z-index: 100;  
-  width: 100%;  
-  }
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
 
 .hover:hover {
   color: #BE963F;
@@ -586,14 +586,18 @@ footer {
 
 .footer_tit {
   color: #222;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+
 }
 
-.footer_list a:hover{
+.footer_list a:hover {
   color: #000000;
+  transform: scale(1.2);
   transition: 0.5s;
 }
+
+
+
 
 
 .foot {
@@ -620,13 +624,14 @@ footer {
   width: 293px;
 }
 
-.footer_list {
+.footer_list a {
   display: flex;
   flex-direction: column;
   gap: 20px;
   font-size: 20px;
   color: #AAA;
-
+  transition: 0.5s;
+  padding: 4px;
 }
 
 .footer_img {
@@ -894,6 +899,7 @@ footer {
 .nav-btn {
   display: none;
 }
+
 .nav-btn {
   display: block;
   width: 60px;
@@ -902,12 +908,24 @@ footer {
   height: 50px;
   font-size: 16px;
   margin-left: 10px;
- }
+}
 
- .pci {
+.pci {
   margin-top: 60px;
   margin-left: 80px;
   margin-bottom: 50px;
   width: 176px;
   height: 59px;
+}
+
+.in {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.in:hover{
+  transform: scale(1.2);
 }

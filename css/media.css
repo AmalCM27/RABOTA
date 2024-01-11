@@ -27,7 +27,7 @@
 		max-width: 100%;
 	}
 }
-
+/* effect nav */
 @media screen and (max-width: 640px) {
 	.card-carousel {
 		margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
@@ -76,3 +76,29 @@
 		margin-top: -100px;
 	}
 }
+
+@media screen and (max-width: 1124px) {
+	.fees {
+		flex-wrap: wrap-reverse;
+	}
+}
+
+@media screen and (max-width: 1124px) {
+	.mony {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 1124px) {
+	.free {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1124px) {
+	.zen {
+		flex-wrap: wrap;
+		margin-top: -100px;
+	}
+}
+
