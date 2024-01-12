@@ -212,7 +212,7 @@ a {
   box-shadow: 10px 30px #29fd53, 20px 60px #29fd53, 15px 15px #1f8291, 25px 45px #858f39;
 }
 
-.card-carousel {
+.carouselcard- {
   --card-width: 80%;
   --card-max-width: 280px;
   --card-height: 350px;
@@ -225,6 +225,7 @@ a {
   min-width: var(--carousel-min-width);
   transition: filter .3s ease;
   margin-bottom: 60px;
+  cursor: grabbing;
 }
 
 .card-carousel.smooth-return {
