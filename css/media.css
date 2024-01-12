@@ -102,3 +102,8 @@
 	}
 }
 
+/* poloska */
+@media (min-width: 600px)
+.blog-read-time-bar {
+    height: 0.5rem;
+}

@@ -238,7 +238,7 @@ a {
   max-width: var(--card-max-width);
   text-align: center;
   padding: 1em;
-  min-width: 250px;
+  min-width: 313px;
   height: var(--card-height);
   position: absolute;
   margin: 0 auto;
